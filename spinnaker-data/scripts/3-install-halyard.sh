@@ -8,7 +8,7 @@ sudo apt-get update
 sudo apt-get -y install jq openjdk-11-jdk
 
 curl -O https://raw.githubusercontent.com/spinnaker/halyard/master/install/debian/InstallHalyard.sh
-sudo bash InstallHalyard.sh --user ubuntu
+sudo bash InstallHalyard.sh
 curl -fsSL get.docker.com -o get-docker.sh
 sh get-docker.sh
 sudo usermod -aG docker ubuntu
